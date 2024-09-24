@@ -2,11 +2,11 @@ name: ci
 on:
   push:
     branches:
-      - main
+      - master
 permissions:
   contents: write
 
-env:
+#env:
   # NEW_SECRET: ${{ secrets.NEW_SECRET }}
 
 jobs:
